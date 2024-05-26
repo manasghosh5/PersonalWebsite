@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Ghosh's Portfolio</title>
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light grey background */
+            color: #000000; /* Black text color */
+            font-family: Times New Roman, sans-serif;
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #98AFC7; /* Light grey background */
+        }
+        header h1, h2 {
+            color: #033E3E; /* Light grey headings */
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff; /* White background */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #000000; /* Black link color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manas Ghosh</h1>
+        <p>Kolkata, India</p>
+        <p>+91 999999999 | <a href="mailto:ghoshmanas.ind@gmail.com" target="_blank">ghoshmanas.ind@gmail.com</a> | <a href="https://linkedin.com/in/ghoshmanas" target="_blank">linkedin.com/in/ghoshmanas</a></p>
+    </header>
+
+    <section>
+        <h2>Objective:</h2>
+        <p>A motivated individual with in-depth knowledge of technical tools and management skills seeking a position in a growth-oriented company where I can use my skills to the advantage of the company while having the scope to develop my own skills.</p>
+
+        <h2>Technical Skills:</h2>
+        <ul>
+            <li>Programming Language: Java.</li>
+            <li>Database: Basics of SQL.</li>
+            <li>Cyber Security: Theoretical understanding of security incidents & Access Management, Multi-Factor Authentication (MFA), Incident Response, Cybersecurity Frameworks, Vulnerability Management.</li>
+            <li>Computer Networks: Basic knowledge in Network Administration and Network Security.</li>
+            <li>Cloud Technologies: Understanding of cloud technologies such as Azure and AWS through project-based learning.</li>
+            <li>Operating Systems: Worked on the Windows Server/10/11 & Linux Server (Ubuntu/Debian).</li>
+            <li>Office Suite: Knowledge of Microsoft Word, Excel, and PowerPoint.</li>
+            <li>Web Design: HTML Basics.</li>
+        </ul>
+
+        <h2>Soft Skills:</h2>
+        <ul>
+            <li>Adaptability: Proven ability to quickly grasp complex technical concepts and adapt to evolving technologies.</li>
+            <li>Team Collaboration: Ability to work efficiently in cross-functional team environments.</li>
+            <li>Time Management: Efficient time management and task prioritization.</li>
+            <li>Creative Thinking: Innovative to approach to engineering problem-solving.</li>
+        </ul>
+
+        <h2>Certifications:</h2>
+        <ul>
+            <li><a href="https://codered.eccouncil.org/certificate/77b060df-3712-450e-bd01-c2b8bda1ab12?logged=false" target="_blank">Network Defense Essentials by EC-Council (20/09/2023)</a></li>
+            <li><a href="https://www.credly.com/badges/c10206f1-4525-45aa-8626-90fd9a5228a5/public_url" target="_blank">Networking Essentials by Cisco (23/06/2023)</a></li>
+            <li><a href="https://www.credly.com/badges/1a5bf556-da10-494e-b61e-936b28d8dbe8/public_url" target="_blank">Introduction to IOT by Cisco (26/01/2022)</a></li>
+            <li><a href="https://www.credly.com/badges/3a6a7f24-cd35-441d-b1b8-c21ff3084468" target="_blank">Introduction to Cybersecurity Tools & Cyber Attacks by IBM (06/01/2022)</a></li>
+            
+        <h2>Projects:</h2>
+        <ul>
+            <li><strong>Underground Cable Fault Detector [03/2023 - 04/2023]</strong><br>
+                A type of underground cable fault detection system based on Arduino Nano, which helps engineers and technicians to detect and repair faults in underground cabling while saving time and costs.<br>
+                Components & Technology Used: Arduino Nano, Relays, Resistors, Jumper cables, Switches, Arduino IDE.</li>
+            <li><strong>Heartbeat Monitoring System [07/2023 – 08/2023]</strong><br>
+                An IoT based heart beat monitoring system based on NodeMCU ESP8266 12e which will measure heartbeats and will sync the data in the cloud for assessment of many health conditions, hence ensuring data can be accessed from anywhere in the world resulting in improvement of telemedicine.<br>
+                Components & Technology Used: NodeMCU ESP8266 12e, OLED Display, Heartbeat Sensor Module, Thingspeak Cloud, Arduino IDE.</li>
+            <li><strong>Cloud Hosted VPN Server [12/2023 – 01/2024]</strong><br>
+                Deployed and Configured a VPN Server in the Microsoft Azure Cloud using Wireguard, which helps in remotely accessing resources safely and also encrypts data for users over public networks.<br>
+                Technology Used: Azure Cloud, Wireguard, Bash scripting, Linux.</li>
+        </ul>
+
+        <h2>Education:</h2>
+        <ul>
+            <li><strong>B. Tech in Electronics and Communication Engineering | 2020 – 2024 | Current CGPA: 8.68 / 10</strong><br>
+                B.P. Poddar Institute of Management and Technology | MAKAUT | Kolkata</li>
+            <li><strong>WBCHSE | 2020 | Percentage Scored: 74.8%</strong><br>
+                Bidhannagar Municipal School | Kolkata</li>
+            <li><strong>WBBSE | 2020 | Percentage Scored: 67.57%</strong><br>
+                Bidhannagar Municipal School | Kolkata</li>
+        </ul>
+
+        <h2>Languages:</h2>
+        <ul>
+            <li>English | Hindi | Bengali</li>
+        </ul>
+
+        <h2>Interests:</h2>
+        <ul>
+            <li>Writing | Cycling | Cooking</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Manas Ghosh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
